@@ -63,7 +63,7 @@ const S = {
     fontFamily: "'DM Serif Display', 'Georgia', serif",
   },
   heroSub: {
-    fontSize: "14px", color: "#666",
+    fontSize: "14px", color: "#999",
     lineHeight: "1.7", marginBottom: "48px",
   },
 
@@ -110,7 +110,7 @@ const S = {
     fontSize: "28px", marginBottom: "10px",
     display: "block", color: "#333",
   },
-  dropText: { fontSize: "13px", color: "#555", lineHeight: "1.6" },
+  dropText: {  fontSize: "13px", color: "#888", lineHeight: "1.6" },
   dropHighlight: { color: "#4ade80", cursor: "pointer" },
   fileInfo: {
     display: "flex", alignItems: "center", gap: "10px",
@@ -225,7 +225,7 @@ const S = {
     fontFamily: "'DM Serif Display', serif",
     marginBottom: "6px",
   }),
-  scoreDesc: { fontSize: "13px", color: "#555", lineHeight: "1.6" },
+  scoreDesc: { fontSize: "13px", color: "#aaaaaa", lineHeight: "1.6" },
   scoreBadge: (score) => ({
     display: "inline-block",
     fontSize: "11px",
@@ -278,8 +278,8 @@ const S = {
     borderBottom: "1px solid #161618",
     fontSize: "13px",
   },
-  metaKey: { color: "#444" },
-  metaVal: { color: "#c0bdb5", fontWeight: "500" },
+  metaKey: { color: "#888" },
+  metaVal: { color: "#e8e6e0", fontWeight: "500" },
 
   // History
   historySection: { marginTop: "32px" },
@@ -301,8 +301,8 @@ const S = {
     color: scoreColor(s, "text"),
     minWidth: "48px",
   }),
-  histSnip: { fontSize: "12px", color: "#444", flex: 1, lineHeight: "1.5" },
-  histDate: { fontSize: "11px", color: "#333" },
+  histSnip: { fontSize: "12px", color: "#888", flex: 1, lineHeight: "1.5" },
+  histDate: { fontSize: "11px", color: "#777" },
 };
 
 // ── Color helper based on score ──────────────────────────────────────────────
@@ -577,7 +577,7 @@ export default function App() {
                         <span style={{ opacity: 0.5 }}>—</span> {kw}
                       </span>
                     ))}
-                    <p style={{ fontSize: "12px", color: "#333", marginTop: "12px" }}>
+                    <p style={{ fontSize: "12px", color: "#777", marginTop: "12px" }}>
                       Consider adding these terms where relevant.
                     </p>
                   </div>
